@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-chatbot-api",
+  "description": "Auto reply chatbot for WhatsApp using OpenAI",
+  "repository": "https://github.com/YOUR_GITHUB/chatbot-api",
+  "keywords": ["chatbot", "whatsapp", "ai", "openai"],
+  "env": {
+    "OPENAI_API_KEY": {
+      "description": "Your OpenAI API key",
+      "required": true
+    },
+    "AI_MODEL": {
+      "description": "Model to use (e.g. gpt-4o-mini)",
+      "value": "gpt-4o-mini"
+    }
+  }
+}
